@@ -2,13 +2,15 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+/* This is section First */
 
 .flex-container {
   display: flex;
+  margin-bottom: 100px;
 }
-#first-section{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+#first-section {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
 }
 
 .half-width {
@@ -22,22 +24,41 @@ body {
 .half-width span {
   color: orange;
 }
-.half-width p{
-    color: rgb(88, 87, 86);
-    text-align: justify;
+.half-width p {
+  color: rgb(88, 87, 86);
+  text-align: justify;
 }
 .btn {
   text-decoration: none;
   color: white;
   background: linear-gradient(45deg, lightsalmon, tomato);
-   padding: 10px 40px;
-   font-size: 16px;
-   font-weight: bold;
-   border-radius: 5px;
+  padding: 10px 40px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
 }
-.btn :hover{
 
+a :hover{
+  background-color: red;
 }
+
 .half-width img {
   width: 100%;
 }
+/* This is section First */
+
+/* This is section Second  */
+#dream-section {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.half-width h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.half-width h3 {
+  font-size: 22px;
+}
+
+/* This is section second */
